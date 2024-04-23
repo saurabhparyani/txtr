@@ -23,9 +23,9 @@ const Page = ({ }) => {
 
     return <>
         <div className='h-screen flex justify-center flex-col items-center bg-vs'>
-            <div className='text-white font-bold text-8xl font-rubik'>TXTR</div>
-            <div className='text-white py-5 font-normal text-4xl font-rubik'>Chat with friends in the blink of an eye</div>
-            <div className='text-white pt-9 pb-5 text-xl font-rubik'>Sign in to your Google account</div>
+            <div className='text-white font-bold text-4xl md:text-8xl font-rubik text-center'>TXTR</div>
+            <div className='text-white py-5 font-normal text-lg md:text-4xl font-rubik text-center '>Chat with friends in the blink of an eye</div>
+            <div className='text-white py-5 font-normal text-lg md:text-xl font-rubik text-center'>Sign in to your Google account</div>
             <Button isLoading={isLoading} size={'lg'} type='button' className='max-w-sm mx-auto w-full font-rubik text-lg' onClick={loginWithGoogle}>
                 {isLoading ? null : (
                     <svg
