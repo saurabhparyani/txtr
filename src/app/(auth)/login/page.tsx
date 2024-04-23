@@ -5,10 +5,8 @@ import { FC, useState } from 'react'
 import { signIn } from 'next-auth/react'
 import toast from 'react-hot-toast'
 
-interface pageProps { }
-
-const page: FC<pageProps> = ({ }) => {
-    const [isLoading, setIsLoading] = useState<boolean>(false);
+const Page = ({ }) => {
+    const [isLoading, setIsLoading] = useState(false);
 
     async function loginWithGoogle() {
         setIsLoading(true)
@@ -24,7 +22,7 @@ const page: FC<pageProps> = ({ }) => {
     }
 
     return <>
-        <div className='bg-vs h-screen flex justify-center flex-col items-center'>
+        <div className='h-screen flex justify-center flex-col items-center bg-vs'>
             <div className='text-white font-bold text-8xl font-rubik'>TXTR</div>
             <div className='text-white py-5 font-normal text-4xl font-rubik'>Chat with friends in the blink of an eye</div>
             <div className='text-white pt-9 pb-5 text-xl font-rubik'>Sign in to your Google account</div>
@@ -64,4 +62,4 @@ const page: FC<pageProps> = ({ }) => {
     </>
 }
 
-export default page
+export default Page
