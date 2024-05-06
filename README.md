@@ -1,4 +1,4 @@
-# TXTR: A full stack realtime chat app built with Next.js, Redis, Redis, Pusher and Tailwind.
+# TXTR: A full stack realtime chat app built with Next.js, Redis, Pusher and Tailwind.
 
 ### **Features/Stack:**
 * 🌐 **Next.js 13** for a modern development experience and efficient data fetching.
