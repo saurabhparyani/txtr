@@ -1,3 +1,24 @@
+# TXTR: A full stack realtime chat app built with Next.js, Redis, Redis, Pusher and Tailwind.
+
+### **Features/Stack:**
+* 🌐 **Next.js 13** for a modern development experience and efficient data fetching.
+* 📂 **Upstash Redis** powering **real-time messaging** and efficient caching.
+* 🔐 Secure **Google Auth** via **NextAuth** for seamless login.
+* 💬 **Real-time messaging** with **Pusher** and **Pusher-js**, leveraging **Web Sockets** for instant updates.
+* 🤝 **Robust friendship system** with friend management and **zod validation**.
+* 🎨 Responsive **TailwindCSS** UI for a great user experience.
+* ⚡ **React**, **TypeScript**, **server-side-rendering**, and **client-side caching** to optimize performance.
+
+### **Try it on your own**
+* Visit https://txtr.vercel.app/ and sign up via Google
+* Add a friend by entering their email address
+* Enjoy real time superfast messaging!
+
+### Project showcase
+
+[![TXTR](https://img.youtube.com/vi/wuz5VR5QEXY/0.jpg)](https://www.youtube.com/watch?v=wuz5VR5QEXY)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
